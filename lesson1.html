@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Lesson-1 Editor</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>C Tutorial</h2>
+      <p>Welcome to C lesson-1 today we are going to learn editor page</p>
+      <div class="editor">
+        <h3 id="title1" style="margin: 10px">Example page</h3>
+        <div class="text-place">
+          <textarea id="textarea">
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main() {
+    printf("Hello world");
+    return 0;
+}
+                </textarea
+          >
+        </div>
+      </div>
+      <br /><br />
+      <div class="output">
+        <h3 id="title2">Output:</h3>
+        <div class="text-place2">
+          <label style="color: white">Hello world</label>
+        </div>
+      </div>
+
+      <div class="explanation">
+        <br /><br />
+        <label
+          ><b>Librarys -> #include <...> </b> <br /><br />
+          These headers are used to define a library to use in your code.
+
+          <br /><br />
+          <b>Main -> ....</b>
+          <br /><br />
+          Your code is running in this part
+        </label>
+      </div>
+      <br /><br />
+      <button id="nextPage" type="submit">Next Lesson</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+body {
+    font-family: sans-serif;
+}
+
+.formula {
+    background-color: rgb(203, 200, 200);
+    height: 90px;
+}
+
+
+.box {
+    margin: 20px;
+}
+
+#textarea {
+    user-select: none;
+    pointer-events: none;
+    resize: none;
+    border: none;
+    outline: none;
+    width: 1428px;
+}
+
+.examples {
+    background-color: rgb(203, 200, 200);
+    height: 100px;
+}
+
+.area {
+    margin: 20px;
+}
+
+#textarea2 {
+    user-select: none;
+    pointer-events: none;
+    resize: none;
+    border: none;
+    outline: none;
+    width: 1428px;
+}
+
+.alert {
+    background-color: rgb(214, 112, 112);
+    height: 160px;
+}
+
+
+#textarea3 {
+    user-select: none;
+    pointer-events: none;
+    resize: none;
+    border: none;
+    outline: none;
+    width: 1428px;
+    height: 50px;
+}
+
+
+#nextPage {
+    margin-top: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border-radius: 2px;
+    background-color: rgb(0, 255, 8);
+    outline: none;
+    border:none;
+    cursor: pointer;
+  }
+
+  #nextPage:hover {
+    transition: 1s color;
+    transition: 1s background;
+    background-color: black;
+    color:rgb(0, 255, 8)
+  }

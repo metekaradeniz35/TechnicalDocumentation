@@ -1,0 +1,89 @@
+body {
+    font-family: sans-serif;
+}
+
+.integer {
+    background-color: rgb(203, 200, 200);
+    height: 100px;
+}
+
+#textarea {
+    margin: 10px;
+    user-select: none;
+    pointer-events: none;
+    resize: none;
+    border: none;
+    outline: none;
+    width: 1428px;
+    height: 47px;
+}
+
+.examples {
+    background-color: rgb(203, 200, 200);
+    height: 250px;
+}
+
+#textarea2 {
+    margin: 10px;
+    user-select: none;
+    pointer-events: none;
+    resize: none;
+    border: none;
+    outline: none;
+    width: 1428px;
+    height: 180px;
+}
+
+.multiple {
+    background-color: rgb(203, 200, 200);
+    height: 144px;
+}
+
+#textarea3 {
+    margin: 10px;
+    user-select: none;
+    pointer-events: none;
+    resize: none;
+    border: none;
+    outline: none;
+    width: 1428px;
+    height: 90px;
+}
+
+.wText {
+    background-color: rgb(203, 200, 200);
+    height: 100px;
+}
+
+#textarea {
+    margin: 10px;
+    user-select: none;
+    pointer-events: none;
+    resize: none;
+    border: none;
+    outline: none;
+}
+
+#nextPage {
+    margin-top: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border-radius: 2px;
+    background-color: rgb(0, 255, 8);
+    outline: none;
+    border:none;
+    cursor: pointer;
+  }
+
+  #nextPage:hover {
+    transition: 1s color;
+    transition: 1s background;
+    background-color: black;
+    color:rgb(0, 255, 8)
+  }
+

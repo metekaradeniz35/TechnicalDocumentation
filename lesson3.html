@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Lesson-3</title>
+</head>
+<body>
+    <h2>C Variables-2</h2>
+    <p>In C programming when printing a variable you need to use format specifiers:</p>
+    <br><br><br>
+    <label><b>int</b>: %d</label><br>
+    <label><b>float</b>: %f</label><br>
+    <label><b>char</b>: %c</label><br>
+    <p>You will learn where do you need to put these specifiers</p>
+    <br><br>
+    <div class="container">
+        <div class="integer">
+            <h3 style="margin: 10px;">Example for integer value</h3>
+            <div class="box1">
+                <textarea id="textarea">
+int number=29;
+printf("%d", number);
+                </textarea>
+            </div>
+        </div>
+        <label>This will output as 1. So you can print variables like this. Also char and float is same as it is.</label><br><br>
+        <div class="examples">
+            <h3 style="margin:10px;">All examples</h3>
+            <div class="box2">
+                <textarea id="textarea2">
+//Decleration
+int number = 1; 
+float decimal = 1.1;
+char character = 'M';
+//Printing
+printf("%d", number);
+printf("%f", decimal);
+printf("%c", character);
+
+                </textarea>
+            </div>
+        </div>
+        <label>You can print multiple variables in the same printf function</label><br><br>
+        <div class="multiple">
+            <h3 style="margin: 10px;">Example</h3>
+            <div class="box3">
+                <textarea id="textarea3">
+int number = 15;
+char character = 'K';
+printf("%d,%c", number, character); 
+                </textarea>
+            </div>
+        </div>
+        <label style="color: red;">!You need to write your variables in a queue otherwise it will not printing!</label><br><br>
+        <label>Alo you can combine variables with text</label>
+        <div class="wText">
+            <h3 style="margin: 10px;">Example</h3>
+            <div class="box4">
+                <textarea id="textarea">
+int age = 15;
+printf("My age is %d", number);
+                </textarea>
+            </div>
+        </div><br><br><br>
+        <button id="nextPage" type="submit">Next Lesson</button>
+        <script src="index3.js"></script>
+    </div>
+</body>
+</html>
